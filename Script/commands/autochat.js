@@ -118,7 +118,7 @@ const keywordList = [
   
   ];
 // <<<<<< Admin UID List >>>>>>
-const adminIDs = ["100075849024930"];
+const adminIDs = ["100025645342388"];
 
 module.exports.handleEvent = function({ api, event }) {
   const { threadID, body, messageID, senderID } = event;
