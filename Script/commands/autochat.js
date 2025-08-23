@@ -36,7 +36,7 @@ const keywordList = [
   { keywords: ["tata", "tatah", "টাটা"], reply: "Tatah😚✨" },
   { keywords: ["thanos"], reply: "চুটকি দিয়ে ইউনিভার্সের পুঁটকি মেরে দিসিলো সেই হালায় না? 🙂" },
   { keywords: ["hm", "hum", "হুম"], reply: "hmm er reply ki dibo jana nei 😷" },
-  { keywords: ["Shuvo", "Shuvo koi"], reply: "Busy ache hoyto, Inbox koro 👉 : @স্বপ্নের রাজকুমার 💌" },
+  { keywords: ["wahid", "wahid koi"], reply: "Busy ache hoyto, Inbox koro 👉 : https://m.me/ami.wahid.bolchi 💌" },
   { keywords: ["thu", "থু"], reply: "তোর মুখে পড়ুক 😌" },
   { keywords: ["Assalamualaikum", "আসসালামু আলাইকুম"], reply: "Walaikumus salam warah matullahi wabrah katuh 🖤✨" },
   { keywords: ["salam"], reply: "salam na bole, bolo Assalamualaikum 💌. sundor vabe salam dite hoy 🖤✨" },
@@ -106,14 +106,19 @@ const keywordList = [
   { keywords: ["🥵"], reply: "Horny mood e nak 🙂i" },
   { keywords: ["Ayhy", "Ayhyeee"], reply: "Kire ki hois 😐e" },
   { keywords: ["koi jao", "koi jas?"], replt: "Morte ☺️" },
-  { keywords: ["Shuvo", "Shuvo Mc", "Shuvo mc"], reply: "Tui Mc Amr Boss Shuvo ke Kno Mc bolis Tui Mc 🤬🔪" }
-  
-  
-  
+  { keywords: ["","",""], reply: },
+  { keywords: ["","",""], reply: },
+  { keywords: ["","",""], reply: },
+  { keywords: ["","",""], reply: },
+  { keywords: ["","",""], reply: },
+  { keywords: ["","",""], reply: },
+  { keywords: ["","",""], reply: },
+  { keywords: ["","",""], reply: },
+  { keywords: ["","",""], reply: }
   
   ];
 // <<<<<< Admin UID List >>>>>>
-const adminIDs = ["100025645342388"];
+const adminIDs = ["100075849024930"];
 
 module.exports.handleEvent = function({ api, event }) {
   const { threadID, body, messageID, senderID } = event;
